@@ -4,7 +4,6 @@ import Animation from '../Animation'
 import { useState, useEffect } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import emailjs from '@emailjs/browser'
-import { useRef } from 'react'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
