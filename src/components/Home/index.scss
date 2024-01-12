@@ -79,10 +79,15 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .tags,
-  .home-page h1:before,
-  .home-page h1:after {
-    display: none;
+  h1 {
+    width: 80%;
+    padding: 30%;
+    height: 150px;
+  }
+  h2 {
+    width: 90%;
+    padding: 10%;
+    height: 100px;
   }
 
   .home-page .text-zone {

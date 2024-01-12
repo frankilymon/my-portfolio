@@ -38,7 +38,7 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>
+          <h1 className="contact-h1">
             <Animation
               letterClass={letterClass}
               strArray={['c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}

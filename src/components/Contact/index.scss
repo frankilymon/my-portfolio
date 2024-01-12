@@ -122,14 +122,25 @@ p {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px), (max-width: 1400px) {
   .map-wrap {
     float: none;
     margin: 0;
     width: 100%;
-    height: 400px;
+    height: 200px;
   }
-
+  .contact-h1,
+  p {
+    width: 350px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+  form {
+    margin-right: 100px;
+    padding-right: 150px;
+    float: right;
+  }
   .info-map {
     display: none;
   }

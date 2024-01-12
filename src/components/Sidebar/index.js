@@ -3,14 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import {
-  faHome,
-  faUser,
-  faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
-} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
